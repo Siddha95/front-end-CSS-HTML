@@ -67,10 +67,8 @@ h2.product-title {
 
 .price {
   font-size: 25px;
-}
-
-p.price {
-  margin-bottom: auto;
+  margin-right: 0;
+  position: relative;
 }
 
 .shipping {
@@ -78,7 +76,9 @@ p.price {
   font-size: small;
   font-weight: bold;
   color: #777;
-  margin-bottom: 20px;
+  position: absolute;
+  top: 135px;
+  left: 520px;
 }
 
 .more-info:link,
@@ -135,6 +135,8 @@ p.price {
   color: #000;
   background-color: whitesmoke;
 }
+
+/* FLOATS */
 
 .product-info {
   float: left;
