@@ -36,14 +36,46 @@
         /* STARTER */
         font-family: sans-serif;
         background-color: #ddd;
-        font-size: 40px;
+        font-size: 32px;
         margin: 40px;
 
         /* FLEXBOX */
         display: flex;
         align-items: center;
-        justify-content: space-between ;
+        justify-content: flex-start ;
+        /* gap: 30px;  */
       }
+
+      /* Tutti gli elementi con .el */
+      .el {
+        /* Defaults */
+        /* 
+        flex-grow: 0;
+        flex-shrink: 1; fitta il content nel container. 
+        flex-basis: auto; fitta sempre nel containers
+        */
+        flex-basis: 0;
+        flex-grow: 1;
+        /* shortcut */
+        flex: 0 0 200px;
+
+      }
+
+      .el--1 {
+        align-self: flex-start;
+        /* flex-grow: 1;  fitta lo spazio rimanente con elemento in flex grow */
+        
+      }
+
+      .el--5 {
+        align-self: stretch;
+        order: 1;
+      }
+
+      .el--6 {
+        order: -1;
+      }
+
     </style>
   </head>
   <body>
