@@ -9,6 +9,7 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 
   line-height: 1.4;
+  
 }
 
 p {
@@ -17,10 +18,11 @@ p {
 
 article {
   width: 870px;
+  
 }
 
 img {
-  float: left;
+  
 }
 
 h2.product-title {
@@ -131,6 +133,7 @@ h2.product-title {
   font-size: 18px;
   text-transform: uppercase;
   cursor: pointer;
+  margin-top: 31px;
   padding: 15px;
   width: 100%;
   border-top: 4px solid black;
@@ -160,13 +163,15 @@ h2.product-title {
 .main-container {
   display: flex;
   justify-content: space-between;
-  align-items: stretch;
   height: 40vh;
+  
+  
   
 }
 
 .col-1{
-  display: flex;
+  displa
+  y: flex;
   flex-direction: column;
   gap: 10px;
   flex: 1; 
