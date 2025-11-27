@@ -163,15 +163,14 @@ h2.product-title {
 .main-container {
   display: flex;
   justify-content: space-between;
-  height: 40vh;
+  height: 218px;
   
   
   
 }
 
 .col-1{
-  displa
-  y: flex;
+  display: flex;
   flex-direction: column;
   gap: 10px;
   flex: 1; 
